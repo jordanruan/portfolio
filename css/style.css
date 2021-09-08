@@ -8,7 +8,7 @@
 html,
 body {
     font-family: 'Athiti', sans-serif;
-    background: #232323;
+    background-color: #161616;
 }
 
 .container {
@@ -34,10 +34,10 @@ body {
 }
 
 .nav-links a {
-    margin: 20px;
+    margin: 30px;
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .home {
@@ -47,9 +47,8 @@ body {
 }
 
 .text-front {
-    font-family: 'Athiti', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 26px;
     line-height: 50px;
     text-align: center;
@@ -58,7 +57,6 @@ body {
 }
 
 .content h1 {
-    font-family: Athiti;
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
@@ -73,4 +71,41 @@ body {
 
 .content {
     text-align: center;
+}
+
+.sobre h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sobre {
+    background: #232323;
+    height: 100vh;
+}
+
+.sobre p {
+    padding: 50px 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 62px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.sobre h4 {
+    padding: 10px 0;
+    width: 800px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.sobre span {
+    color: #FFD44B;
 }
