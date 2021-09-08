@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Athiti', sans-serif;
+    background: #232323;
+}
+
+.container {
+    width: 1600px;
+    margin: 10px auto;
+}
+
+.menu-logo h1 {
+    color: #FFD44B;
+    font-size: 2rem;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links a {
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.home {
+    max-width: 900px;
+    text-align: justify;
+    padding: 120px 0;
+}
+
+.text-front {
+    font-family: 'Athiti', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    color: #2FBF7D;
+}
+
+.content h1 {
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content span {
+    color: #FFD44B;
+}
+
+.content {
+    text-align: center;
+}
