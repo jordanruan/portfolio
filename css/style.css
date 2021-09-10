@@ -224,6 +224,7 @@ a:hover {
     border: 2px solid #15F1BB;
     color: #15F1BB;
     margin: auto;
+    margin-bottom: 8.8rem;
 }
 
 .btn:hover {
@@ -251,20 +252,20 @@ a:hover {
 
 .habilidades {
     height: 100vh;
-    background-color: #f8f9fa;
+    background-color: var(--bs-dark);
 }
 
 .habi-text {
-    padding: 120px 0;
+    padding: 300px 0;
 }
 
 .habi-text h1 {
     font-size: 2.2rem;
     text-align: center;
-    color: #343a40;
+    color: var(--bs-light);
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 
 .habi-text .line {
@@ -275,7 +276,7 @@ a:hover {
     border-radius: 6px;
     background: var(--bs-gray-dark);
     background: -webkit-gradient(linear, left top, right top, from(var(--bs-gray-dark)), to(var(--bs-teal)));
-    background: -webkit-gradient(linear, left top, right top, from(var(--bs-teal)), to(var(--bs-gray-dark)));
-    background: -webkit-linear-gradient(left, var(--bs-teal), var(--bs-gray-dark));
-    background: linear-gradient(to right, var(--bs-teal), var(--bs-gray-dark));
+    background: -webkit-gradient(linear, left top, right top, from(var(--bs-teal)), to(var(--bs-info)));
+    background: -webkit-linear-gradient(left, var(--bs-teal), var(--bs-info));
+    background: linear-gradient(to right, var(--bs-teal), var(--bs-info));
 }
