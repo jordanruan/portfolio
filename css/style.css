@@ -1,26 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
  :root {
-    --bs-blue: #0d6efd;
-    --bs-indigo: #6610f2;
-    --bs-purple: #6f42c1;
-    --bs-pink: #d63384;
-    --bs-red: #dc3545;
-    --bs-orange: #fd7e14;
-    --bs-yellow: #ffc107;
     --bs-green: #198754;
     --bs-teal: #00FFBB;
     --bs-cyan: #0dcaf0;
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #0d6efd;
     --bs-secondary: #6c757d;
-    --bs-success: #198754;
     --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
-    --bs-dark: #212529
+    --bs-dark: #212529;
 }
 
 * {
@@ -51,7 +40,7 @@ body {
 /* ---- Menu Logo ---- */
 
 .menu-logo h1 {
-    color: #E5E5E5;
+    color: var(--bs-light);
     font-size: 2rem;
 }
 
@@ -76,7 +65,7 @@ body {
 .nav-links a {
     margin: 30px;
     text-decoration: none;
-    color: #fff;
+    color: var(--bs-light);
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -90,7 +79,7 @@ li:hover {
 }
 
 a:hover {
-    color: #15F1BB;
+    color: var(--bs-teal);
 }
 
 
@@ -112,7 +101,7 @@ a:hover {
     line-height: 50px;
     text-align: center;
     letter-spacing: 0.5em;
-    color: #00FFBB;
+    color: var(--bs-teal);
 }
 
 .content h1 {
@@ -121,15 +110,7 @@ a:hover {
     font-size: 80px;
     line-height: 90px;
     text-align: center;
-    color: #FFFFFF;
-}
-
-.content span {
-    color: #FFD44B;
-}
-
-.content {
-    text-align: center;
+    color: var(--bs-light);
 }
 
 
@@ -160,12 +141,12 @@ a:hover {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #15F1BB;
+    border: 5px solid var(--bs-light);
 }
 
 .sobre-text {
     margin-top: 2em;
-    color: #fff;
+    color: var(--bs-light);
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -176,7 +157,7 @@ a:hover {
 }
 
 .sobre h1 {
-    color: #fff;
+    color: var(--bs-light);
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
@@ -188,12 +169,12 @@ a:hover {
     font-weight: normal;
     font-size: 30px;
     line-height: 62px;
-    color: #FFFFFF;
+    color: var(--bs-light);
     text-align: justify;
 }
 
 .sobre-nome {
-    color: #15F1BB;
+    color: var(--bs-teal);
 }
 
 .text-sobre2 {
@@ -219,10 +200,6 @@ a:hover {
 
 .social-icons a {
     text-decoration: none;
-}
-
-.content .contato-h1 {
-    color: #232323;
 }
 
 .btn-span {
