@@ -26,6 +26,11 @@ body {
     height: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
 }
 
 
@@ -203,13 +208,13 @@ a:hover {
 }
 
 .btn-span {
-    color: #f8f9fa;
+    color: var(--bs-white);
 }
 
 .btn {
     min-width: 130px;
     height: 40px;
-    color: #fff;
+    color: var(--bs-white);
     padding: 5px 10px;
     font-weight: bold;
     cursor: pointer;
@@ -221,14 +226,13 @@ a:hover {
     z-index: 0;
     background: transparent;
     overflow: hidden;
-    border: 2px solid #15F1BB;
-    color: #15F1BB;
+    border: 2px solid var(--bs-teal);
+    color: var(--bs-teal);
     margin: auto;
-    margin-bottom: 8.8rem;
 }
 
 .btn:hover {
-    color: #fff;
+    color: var(--bs-white);
 }
 
 .btn:hover:after {
@@ -250,16 +254,16 @@ a:hover {
 
 /* ---- Sobre  ---- */
 
-.habilidades {
+.projetos {
     height: 100vh;
     background-color: var(--bs-dark);
 }
 
-.habi-text {
-    padding: 300px 0;
+.proj-text {
+    padding: 350px 0;
 }
 
-.habi-text h1 {
+.proj-text h1 {
     font-size: 2.2rem;
     text-align: center;
     color: var(--bs-light);
@@ -268,7 +272,13 @@ a:hover {
     letter-spacing: 10px;
 }
 
-.habi-text .line {
+.proj-text p {
+    font-size: 20px;
+    text-align: center;
+    color: var(--bs-light);
+}
+
+.proj-text .line {
     width: 120px;
     height: 5px;
     margin: 30px auto 0;
