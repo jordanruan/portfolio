@@ -26,7 +26,8 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: var(--bs-dark);
-    scroll-snap-type: y mandatory;
+    /*     scroll-snap-type: y mandatory;
+ */
 }
 
 section {
@@ -277,7 +278,7 @@ a:hover {
     color: var(--bs-light);
 }
 
-.proj-text .line {
+.line {
     width: 120px;
     height: 5px;
     margin: 30px auto 0;
@@ -336,7 +337,45 @@ a:hover {
     color: var(--bs-light);
 }
 
+.contato {
+    padding: 120px 0;
+}
+
 .contatos {
     height: 100vh;
-    background-color: var(--bs-teal);
+    background-color: var(--bs-light);
+}
+
+.contato h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: var(--bs-dark);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.contato p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--bs-dark);
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+}
+
+.social-contato {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--bs-dark);
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.social-contato a {
+    text-decoration: none;
+    color: var(--bs-dark);
 }
