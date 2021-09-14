@@ -201,6 +201,7 @@ a:hover {
     display: flex;
     padding: 30px 0 0 45px;
     align-items: center;
+    padding-bottom: 120px
 }
 
 .social-icons a {
@@ -260,7 +261,7 @@ a:hover {
 }
 
 .proj-text {
-    padding: 350px 0;
+    padding: 120px 0;
 }
 
 .proj-text h1 {
@@ -289,4 +290,36 @@ a:hover {
     background: -webkit-gradient(linear, left top, right top, from(var(--bs-teal)), to(var(--bs-info)));
     background: -webkit-linear-gradient(left, var(--bs-teal), var(--bs-info));
     background: linear-gradient(to right, var(--bs-teal), var(--bs-info));
+}
+
+.card-todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_card {
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.card-img {
+    width: 100%;
+    max-height: 220px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.card-img .img-card {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
 }
