@@ -31,7 +31,8 @@ body {
 }
 
 section {
-    scroll-snap-align: start;
+    /*     scroll-snap-align: start;
+ */
 }
 
 
@@ -127,13 +128,13 @@ a:hover {
     flex-direction: column;
     text-align: center;
     margin: auto;
-    overflow-x: hidden;
     max-width: 1200px;
 }
 
 .sobre-tudo {
     height: 100vh;
     background: var(--bs-gray-dark);
+    padding: 120px 0;
 }
 
 .content-sobre {
