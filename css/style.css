@@ -91,7 +91,8 @@ a:hover {
     justify-content: center;
     text-align: center;
     height: 100vh;
-    width: 100vh;
+    /*     width: 100vh;
+ */
 }
 
 .text-front {
@@ -284,7 +285,8 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     justify-content: center;
-    margin: 70px 0 0 50px;
+    margin: 70px 0 0 200px;
+    padding: 120px 0;
 }
 
 .card_card {
