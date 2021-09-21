@@ -1,6 +1,6 @@
 ﻿### portfolio
 
-Landing Page do meu portfolio, feito em html e css com possíveis alterações futuras.
+Landing Page do meu portfolio, feito em html e css com possíveis alterações futuras..
 
 ## Author 👨‍💻
 
